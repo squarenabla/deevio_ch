@@ -30,5 +30,5 @@ EXPOSE 5000
 COPY . .
 
 ENTRYPOINT [ "python3" ]
-CMD [ "predict.py", "$tfip" ]
+CMD [ "predict.py" ]
 
