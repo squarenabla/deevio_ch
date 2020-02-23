@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b40f11af-a9e3-4554-9ce3-9daf1427b03b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="deevio_ch" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y9z9LvNX9Hm1C2JHLLz1Zlyzfm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.predict">
+    <configuration name="predict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="deevio_ch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/predict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="deevio_ch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.predict" />
+        <item itemvalue="Python.predict" />
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.train" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b40f11af-a9e3-4554-9ce3-9daf1427b03b" name="Default Changelist" comment="" />
+      <created>1582369445259</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582369445259</updated>
+      <workItem from="1582369446504" duration="16646000" />
+      <workItem from="1582395499644" duration="19932000" />
+      <workItem from="1582451513577" duration="15118000" />
+      <workItem from="1582481800148" duration="1416000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1829" height="208" key="GridCell.Tab.0.bottom" timestamp="1582476751124">
+      <screen x="45" y="27" width="1875" height="1053" />
+    </state>
+    <state width="1829" height="208" key="GridCell.Tab.0.bottom/45.27.1875.1053@45.27.1875.1053" timestamp="1582476751124" />
+    <state width="1829" height="208" key="GridCell.Tab.0.center" timestamp="1582476751123">
+      <screen x="45" y="27" width="1875" height="1053" />
+    </state>
+    <state width="1829" height="208" key="GridCell.Tab.0.center/45.27.1875.1053@45.27.1875.1053" timestamp="1582476751123" />
+    <state width="1829" height="208" key="GridCell.Tab.0.left" timestamp="1582476751123">
+      <screen x="45" y="27" width="1875" height="1053" />
+    </state>
+    <state width="1829" height="208" key="GridCell.Tab.0.left/45.27.1875.1053@45.27.1875.1053" timestamp="1582476751123" />
+    <state width="1829" height="208" key="GridCell.Tab.0.right" timestamp="1582476751123">
+      <screen x="45" y="27" width="1875" height="1053" />
+    </state>
+    <state width="1829" height="208" key="GridCell.Tab.0.right/45.27.1875.1053@45.27.1875.1053" timestamp="1582476751123" />
+    <state x="471" y="173" key="SettingsEditor" timestamp="1582374996549">
+      <screen x="45" y="27" width="1875" height="1053" />
+    </state>
+    <state x="471" y="173" key="SettingsEditor/45.27.1875.1053@45.27.1875.1053" timestamp="1582374996549" />
+    <state x="638" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1582481803235">
+      <screen x="45" y="27" width="1875" height="1053" />
+    </state>
+    <state x="638" y="366" key="com.intellij.ide.util.TipDialog/45.27.1875.1053@45.27.1875.1053" timestamp="1582481803235" />
+    <state x="733" y="141" width="488" height="795" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582477996318">
+      <screen x="45" y="27" width="1875" height="1053" />
+    </state>
+    <state x="733" y="141" width="488" height="795" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/45.27.1875.1053@45.27.1875.1053" timestamp="1582477996318" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/deevio_ch$train.coverage" NAME="train Coverage Results" MODIFIED="1582375320198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/deevio_ch$predict.coverage" NAME="predict Coverage Results" MODIFIED="1582473668309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
