@@ -1,23 +1,38 @@
 import requests
 import json
+import os
+import sys
+import numpy as np
 from flask import Flask, render_template, request
 from image_preprocessing import *
+import tensorflow as tf
+
+os.environ["CUDA_VISIBLE_DEVICES"]="-1"
+MODEL_PATH = './model/1'
+model = tf.keras.models.load_model(MODEL_PATH)
 
 app = Flask(__name__)
 
+@app.route('/')
+def home():
+    return "go to predict"
+
 @app.route('/predict')
 def hello():
-    #name=None ensures the code runs even when no name is provided
     image_url = request.args.get('image_url', default='')
-
     img = analyze_image(image_url)
     if img is None:
         return "Bad link or path"
-    # Making POST request
-    payload = {"instances": [img.tolist()]}
 
-    r = requests.post('http://localhost:9000/v1/models/Resnet:predict', json=payload)
-    pred = json.loads(r.content.decode('utf-8'))
-    pred['labels'] = CLASS_NAMES[np.argmax(pred['predictions'][0])]
+    res = model.predict(np.array([img]))
+    output = {
+        'raw predictions': (str(res[0][0]), str(res[0][1])),
+        'label': CLASS_NAMES[np.argmax(res[0])]
+    }
+
+    pred = json.dumps(output)
     print(pred)
     return pred
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0')
