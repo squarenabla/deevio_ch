@@ -6,6 +6,7 @@ from image_preprocessing import *
 from models import *
 
 MODEL_PATH = './model/1'
+DATA_PATH = './data/nailgun/nailgun/'
 
 IMG_HEIGHT = 224
 IMG_WIDTH = 224
@@ -116,8 +117,8 @@ def train_and_eval(model, train_data, valid_data,
     del optimizer, datagen
     return
 
-train_good_paths = pathlib.Path('./data/nailgun/nailgun/').glob('./good/*.jpeg')
-train_bad_paths = pathlib.Path('./data/nailgun/nailgun/').glob('./bad/*.jpeg')
+train_good_paths = pathlib.Path(DATA_PATH).glob('./good/*.jpeg')
+train_bad_paths = pathlib.Path(DATA_PATH).glob('./bad/*.jpeg')
 
 train_good = analyze_list_of_images(train_good_paths)
 train_bad = analyze_list_of_images(train_bad_paths)
