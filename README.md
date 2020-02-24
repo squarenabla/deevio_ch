@@ -10,7 +10,7 @@ and answers the requests according to the task.
 
 Results of the models:
 
-| Architecture | Train Error | Valid Error|
+| Architecture | Train Accuracy | Valid Accuracy|
 | :----------- | -----------: | -----------: |
 |Simple CNN (3 Conv Layers)| 1.0 | 0.5 |
 |ResNet24| 0.6 | 0.5 |
