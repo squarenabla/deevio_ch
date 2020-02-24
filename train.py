@@ -21,8 +21,6 @@ def seed_everything(seed):
     os.environ['PYTHONHASHSEED'] = str(seed)
     np.random.seed(seed)
 
-seed_everything(SEED)
-
 
 class CustomCallback(tf.keras.callbacks.Callback):
     def __init__(self, valid_data, batch_size=16):
@@ -126,6 +124,9 @@ def train_and_eval(model, train_data, valid_data,
                         callbacks=callbacks)
     del optimizer, datagen
     return
+
+
+seed_everything(SEED)
 
 train_good_paths = pathlib.Path(DATA_PATH).glob('./good/*.jpeg')
 train_bad_paths = pathlib.Path(DATA_PATH).glob('./bad/*.jpeg')
