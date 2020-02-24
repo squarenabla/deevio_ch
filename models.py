@@ -166,7 +166,7 @@ def simple_cnn_model(input_shape):
     x = tf.keras.layers.Dense(128, activation='tanh')(x)
     x = tf.keras.layers.Dropout(0.5)(x)
 
-    out = tf.keras.layers.Dense(1, activation='tanh', name='dense_output')(x)
+    out = tf.keras.layers.Dense(2, activation='softmax', name='dense_output')(x)
 
     model = tf.keras.models.Model(inputs=[input_images], outputs=out)
     return model
