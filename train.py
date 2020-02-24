@@ -1,3 +1,4 @@
+import random
 import matplotlib.pyplot as plt
 
 from sklearn.preprocessing import OneHotEncoder
@@ -12,6 +13,15 @@ IMG_HEIGHT = 224
 IMG_WIDTH = 224
 
 CLASS_NAMES = ['GOOD', 'BAD']
+
+SEED = 42
+
+def seed_everything(seed):
+    random.seed(seed)
+    os.environ['PYTHONHASHSEED'] = str(seed)
+    np.random.seed(seed)
+
+seed_everything(SEED)
 
 
 class CustomCallback(tf.keras.callbacks.Callback):
